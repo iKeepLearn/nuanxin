@@ -62,7 +62,7 @@ Page({
   delivery() {
     let wechat = this.data.potato.wechat
     wx.showToast({
-      title: `添加微信 ${wechat} 进群互动`,
+      title: wechat,
       icon:'none',
       duration: 3000
     })
