@@ -14,6 +14,8 @@ tel       | string   | 电话
 topImage  | string   | 顶部图片
 wechat    | string   | 微信号
   
+## 预览图
+
  ![预览图](preview.png)
 
 
