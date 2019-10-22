@@ -1,5 +1,5 @@
 <view class="top">
-  <image style="width:100%;height:100%" src="{{potato.topImage}}" mode="aspectFill"></image>
+  <image style="width:100%;height:421rpx" src="{{potato.topImage}}" mode="aspectFill"></image>
 </view>
 
 <view class="title">冬日暖心烤红薯</view>

@@ -24,7 +24,7 @@ page {
   width: 80%;
   min-height: 100rpx;
   line-height: 100rpx;
-  margin: 30rpx auto;
+  margin: 0 auto;
   color: #f62900;
   font-size: 1.5em;
   text-align: center;
@@ -92,11 +92,13 @@ page {
   margin: 0 auto;
   border: 1rpx solid #ff6614;
   border-radius: 10rpx;
-  padding: 20rpx;
+  padding: 20rpx 20rpx 60rpx 20rpx;
 }
 
 .location-title {
   font-weight: bold;
+  display: flex;
+  align-items: flex-end;
 }
 
 .location-title, .location-item {
