@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundColor": "#FFAC00",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFAC00",
+    "navigationBarTitleText": "冬日暖心烤红薯",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

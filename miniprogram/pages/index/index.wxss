@@ -1,0 +1,120 @@
+/**index.wxss**/
+
+page {
+  background: #ffac00;
+  color: #fc5900;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  font-family: "SourceHanSansCN";
+}
+
+.top {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 750rpx;
+  min-height: 421rpx;
+  z-index: 99;
+}
+
+.title {
+  width: 80%;
+  min-height: 100rpx;
+  line-height: 100rpx;
+  margin: 30rpx auto;
+  color: #f62900;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.screen-swiper {
+  width: 750rpx;
+  min-height: 421rpx;
+}
+
+.screen-swiper swiper-item {
+  width: 610rpx !important;
+  left: 70rpx;
+  box-sizing: border-box;
+  padding: 40rpx 0rpx 20rpx;
+  overflow: initial;
+}
+
+.screen-swiper swiper-item .swiper-item {
+  width: 100%;
+  display: block;
+  height: 100%;
+  border-radius: 10rpx;
+  transform: scale(0.9);
+  transition: all 0.2s ease-in 0s;
+  overflow: hidden;
+}
+
+.text-content {
+  color: #fc5900;
+}
+
+.middle {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 30rpx auto;
+}
+
+.order-btn, .delivery-btn {
+  border: 1rpx solid 20rpx;
+  min-width: 180rpx;
+  min-height: 80rpx;
+  line-height: 80rpx;
+  padding: 0 20rpx;
+  text-align: center;
+  color: #d0ddde;
+}
+
+.order-btn {
+  background-color: #ff8200;
+}
+
+.delivery-btn {
+  background-color: #d01d30;
+}
+
+.icon {
+  width: 32rpx;
+  height: 32rpx;
+}
+
+.location {
+  width: 92%;
+  margin: 0 auto;
+  border: 1rpx solid #ff6614;
+  border-radius: 10rpx;
+  padding: 20rpx;
+}
+
+.location-title {
+  font-weight: bold;
+}
+
+.location-title, .location-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100rpx;
+  line-height: 100rpx;
+}
+
+.location-item{
+  display: flex;
+  justify-content: space-between;
+  margin-left:32rpx;
+  border-bottom: 1rpx solid #ff6614;
+}
+
+.text-right{
+  position: relative;
+ right:10rpx;
+}
