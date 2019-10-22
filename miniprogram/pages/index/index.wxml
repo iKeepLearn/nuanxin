@@ -21,7 +21,7 @@
 
 <view class="middle">
   <view class="order-btn" bindtap="order">现在购买</view>
-  <view class="delivery-btn" bindtap="delivery">暖心外送</view>
+  <view class="delivery-btn" bindtap="delivery">加群互动</view>
 </view>
 
 <swiper class="screen-swiper square-dot" circular="true">

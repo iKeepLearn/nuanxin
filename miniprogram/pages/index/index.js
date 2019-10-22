@@ -60,10 +60,11 @@ Page({
   },
 
   delivery() {
+    let wechat = this.data.potato.wechat
     wx.showToast({
-      title: '暂不支持外送哦',
-      image: '/images/potato.png',
-      duration: 2000
+      title: `添加微信 ${wechat} 进群互动`,
+      icon:'none',
+      duration: 3000
     })
   },
 
@@ -89,7 +90,12 @@ Page({
   },
 
   onShareAppMessage: function () {
-
+    let {shareMessage, shareImage}  = this.data.potato.share
+    return {
+      title: shareMessage,
+      path: '/pages/index/index',
+      imageUrl: shareImage
+    }
   },
 
   onPullDownRefresh(){
